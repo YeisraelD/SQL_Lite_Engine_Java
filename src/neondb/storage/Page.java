@@ -10,6 +10,11 @@ public class Page {
         this.data = data;
     }
 
-    public int getPageNumber() { return pageNumber; }
-    public byte[] getData() { return data; }
+    public int getPageNumber() {
+        return pageNumber;
+    }
+
+    public byte[] getData() {
+        return data;
+    }
 }
