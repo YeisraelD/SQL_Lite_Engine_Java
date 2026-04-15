@@ -28,7 +28,7 @@ public class Pager {
         file.read(data);
         return new Page(pageNumber, data);
     }
-    
+
     public void writePage(Page page) throws IOException {
         file.seek((long) page.getPageNumber() * Page.PAGE_SIZE);
         file.write(page.getData());
